@@ -3,9 +3,8 @@ const animate = require('tailwindcss-animate')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     darkMode: ['class'],
+    plugins: [animate],
     safelist: ['dark'],
-    prefix: '',
-
     theme: {
         container: {
             center: true,
@@ -56,6 +55,9 @@ module.exports = {
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)',
             },
+            fontFamily: {
+                caveat: ['Caveat'],
+            },
             keyframes: {
                 'accordion-down': {
                     from: { height: 0 },
@@ -82,5 +84,4 @@ module.exports = {
             },
         },
     },
-    plugins: [animate],
 }

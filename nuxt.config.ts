@@ -7,7 +7,9 @@ export default defineNuxtConfig({
         '@nuxt/eslint',
         'nuxt-i18n-micro',
         '@nuxt/image',
+        '@nuxtjs/google-fonts',
     ],
+
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
     eslint: {
@@ -15,6 +17,14 @@ export default defineNuxtConfig({
             standalone: false,
         },
     },
+
+    googleFonts: {
+        display: 'swap',
+        families: {
+            Caveat: [400],
+        },
+    },
+
     i18n: {
         locales: [
             { code: 'en', iso: 'en-US', dir: 'ltr' },
@@ -23,6 +33,7 @@ export default defineNuxtConfig({
         translationDir: 'locales',
         meta: true,
     },
+
     image: {
         provider: 'storyblok',
         storyblok: {
