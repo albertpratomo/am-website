@@ -6,6 +6,7 @@ export default defineNuxtConfig({
         '@nuxtjs/color-mode',
         '@nuxt/eslint',
         'nuxt-i18n-micro',
+        '@nuxt/image',
     ],
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
@@ -21,5 +22,11 @@ export default defineNuxtConfig({
         defaultLocale: 'en',
         translationDir: 'locales',
         meta: true,
+    },
+    image: {
+        provider: 'storyblok',
+        storyblok: {
+            baseURL: 'https://a.storyblok.com',
+        },
     },
 })
