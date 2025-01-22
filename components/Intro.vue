@@ -1,9 +1,13 @@
 <template>
-    <section>
+    <section class="flex flex-col items-center pt-12">
         <h1 class="font-caveat">
-            {{ $t('intro.dear', { name: 'Steven' }) }}
+            Albert + Melissa
         </h1>
 
-        <NuxtImg src="https://a.storyblok.com/f/210339/2048x3072/3ac072cd07/a-m-06860.jpg" />
+        <NuxtImg
+            src="https://a.storyblok.com/f/210339/2048x3072/2c45fa4219/a-m-06085.jpg"
+            class="w-[60vw]"
+            width="250"
+        />
     </section>
 </template>
