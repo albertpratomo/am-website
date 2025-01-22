@@ -38,6 +38,7 @@ export default defineNuxtConfig({
         provider: 'storyblok',
         storyblok: {
             baseURL: 'https://a.storyblok.com',
+            modifiers: { smart: true },
         },
     },
 })
