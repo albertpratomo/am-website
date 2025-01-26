@@ -8,6 +8,7 @@ export default defineNuxtConfig({
         'nuxt-i18n-micro',
         '@nuxt/image',
         '@nuxtjs/google-fonts',
+        'motion-v/nuxt',
     ],
 
     compatibilityDate: '2024-11-01',

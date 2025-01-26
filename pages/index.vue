@@ -1,6 +1,10 @@
 <template>
-    <main class="max-w-md m-auto">
+    <main class="container">
         <Intro />
+
+        <HowWeMet />
+
+        <Gallery />
 
         <HowWeMet />
     </main>
