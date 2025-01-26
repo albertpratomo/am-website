@@ -6,7 +6,7 @@
 
         <NuxtImg
             src="https://a.storyblok.com/f/210339/2048x3072/2c45fa4219/a-m-06085.jpg"
-            class="w-[60vw]"
+            class="w-[60%]"
             width="250"
         />
     </section>
