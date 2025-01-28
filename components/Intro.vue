@@ -1,6 +1,10 @@
+<script setup lang="ts">
+const recipient = inject(recipientInjectionKey)
+</script>
+
 <template>
     <section class="flex flex-col items-center pt-12">
-        <h1 class="font-caveat">
+        <h1 class="font-caveat text-xl">
             Albert + Melissa
         </h1>
 
@@ -9,5 +13,9 @@
             class="w-[60%]"
             width="250"
         />
+
+        <p v-if="recipient">
+            Dear {{ recipient.name }}
+        </p>
     </section>
 </template>
