@@ -9,6 +9,7 @@ export default defineNuxtConfig({
         '@nuxt/image',
         '@nuxtjs/google-fonts',
         'motion-v/nuxt',
+        '@vueuse/nuxt',
     ],
 
     compatibilityDate: '2024-11-01',

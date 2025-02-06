@@ -10,6 +10,7 @@ const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
 
 <template>
     <section
+        id="Letter"
         ref="containerRef"
         class="h-[200vh]"
     >
