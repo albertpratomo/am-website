@@ -11,7 +11,7 @@ const x = useTransform(scrollYProgress, [0, 1], ['0%', '-100%'])
 <template>
     <section
         ref="galleryRef"
-        class="h-[350vh]"
+        class="h-[350vh] bg-background"
     >
         <div class="sticky top-0 overflow-hidden">
             <Motion

@@ -1,19 +1,5 @@
-<script setup lang="ts">
-const containerRef = useTemplateRef('containerRef')
-const { direction } = useSwipe(containerRef)
-
-watch(direction, () => {
-    if (direction.value === 'up') {
-        document.getElementById('Letter')?.scrollIntoView({ behavior: 'smooth' })
-    }
-})
-</script>
-
 <template>
-    <section
-        ref="containerRef"
-        class="relative"
-    >
+    <section class="sticky top-0 z-[-1]">
         <h1 class="font-caveat text-3xl text-center absolute inset-x-0 top-[30%] text-white">
             Albert & Melissa
         </h1>

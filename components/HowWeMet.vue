@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16">
+    <section class="py-16 bg-background">
         <div class="flex justify-between items-start relative">
             <NuxtImg
                 width="185"

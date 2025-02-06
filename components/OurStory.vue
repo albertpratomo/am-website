@@ -1,5 +1,5 @@
 <template>
-    <section class="px-4 py-24 font-serif">
+    <section class="px-4 py-24 font-serif bg-background">
         <h2 class="text-center text-3xl">
             Our Story
         </h2>

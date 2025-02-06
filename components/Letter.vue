@@ -10,9 +10,8 @@ const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
 
 <template>
     <section
-        id="Letter"
         ref="containerRef"
-        class="h-[200vh]"
+        class="h-[200vh] bg-background"
     >
         <div class="sticky top-0 h-screen flex items-center justify-center">
             <p class="font-caveat text-center text-5xl/normal">
