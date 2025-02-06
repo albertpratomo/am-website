@@ -14,7 +14,7 @@ provide(recipientInjectionKey, recipient)
 
         <Letter />
 
-        <HowWeMet />
+        <OurStory />
 
         <Gallery />
 
