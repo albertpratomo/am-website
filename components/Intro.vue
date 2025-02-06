@@ -1,21 +1,13 @@
-<script setup lang="ts">
-const recipient = inject(recipientInjectionKey)
-</script>
-
 <template>
-    <section class="flex flex-col items-center pt-12">
-        <h1 class="font-caveat text-xl">
-            Albert + Melissa
+    <section class="relative">
+        <h1 class="font-caveat text-3xl text-center absolute inset-x-0 top-[30%] text-white">
+            Albert & Melissa
         </h1>
 
         <NuxtImg
-            src="https://a.storyblok.com/f/210339/2048x3072/2c45fa4219/a-m-06085.jpg"
-            class="w-[60%]"
-            width="250"
+            src="https://a.storyblok.com/f/210339/2048x3072/d08b3a12ec/a-m-06138.jpg"
+            class="h-screen object-cover"
+            height="1000"
         />
-
-        <p v-if="recipient">
-            Dear {{ recipient.name }}
-        </p>
     </section>
 </template>
