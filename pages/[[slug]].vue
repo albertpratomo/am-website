@@ -12,6 +12,8 @@ provide(recipientInjectionKey, recipient)
     <main class="container">
         <Intro />
 
+        <Letter />
+
         <HowWeMet />
 
         <Gallery />
