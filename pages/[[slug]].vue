@@ -19,5 +19,7 @@ provide(recipientInjectionKey, recipient)
         <Gallery />
 
         <HowWeMet />
+
+        <Wishes />
     </main>
 </template>

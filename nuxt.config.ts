@@ -10,6 +10,7 @@ export default defineNuxtConfig({
         '@nuxtjs/google-fonts',
         'motion-v/nuxt',
         '@vueuse/nuxt',
+        '@nuxtjs/supabase',
     ],
 
     compatibilityDate: '2024-11-01',
