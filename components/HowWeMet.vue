@@ -15,11 +15,11 @@
                 class="w-[37%]"
             />
 
-            <pre class="font-caveat absolute right-[21%] top-[69%] w-48  -rotate-3 text-stone-800 opacity-50 whitespace-pre">
+            <!-- <pre class=" absolute right-[21%] top-[69%] w-48  -rotate-3 text-stone-800 opacity-50 whitespace-pre">
                  the mountains stand still
                    the sky hummed a soft melody
                            love bloomed like wildflowers
-            </pre>
+            </pre> -->
         </div>
 
         <div class="flex justify-between items-start mt-2">

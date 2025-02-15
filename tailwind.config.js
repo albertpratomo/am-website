@@ -53,7 +53,7 @@ module.exports = {
                 sm: 'calc(var(--radius) - 4px)',
             },
             fontFamily: {
-                caveat: ['Caveat'],
+                serif: ['Optima', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
             },
             keyframes: {
                 'accordion-down': {

@@ -14,7 +14,7 @@ const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
         class="h-[200vh] bg-background"
     >
         <div class="sticky top-0 h-screen flex items-center justify-center">
-            <p class="font-caveat text-center text-5xl/normal">
+            <p class="text-center text-3xl/normal">
                 Now, under the endless blue sky, they invite you to celebrate their next chapter.
             </p>
 

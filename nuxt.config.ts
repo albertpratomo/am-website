@@ -13,18 +13,20 @@ export default defineNuxtConfig({
         '@nuxtjs/supabase',
     ],
 
+    app: {
+        head: {
+            link: [{
+                rel: 'stylesheet',
+                href: 'https://fonts.cdnfonts.com/css/optima?styles=16596,24894" rel="stylesheet',
+            }],
+        },
+    },
+
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
     eslint: {
         config: {
             standalone: false,
-        },
-    },
-
-    googleFonts: {
-        display: 'swap',
-        families: {
-            Caveat: [400],
         },
     },
 
