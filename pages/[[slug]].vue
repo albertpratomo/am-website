@@ -10,8 +10,6 @@ provide(recipientInjectionKey, recipient)
 
 <template>
     <main class="container">
-        <Wishes />
-
         <Intro />
 
         <Letter />
@@ -21,5 +19,7 @@ provide(recipientInjectionKey, recipient)
         <Gallery />
 
         <HowWeMet />
+
+        <Wishes />
     </main>
 </template>
