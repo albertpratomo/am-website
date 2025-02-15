@@ -11,7 +11,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
 </script>
 
 <template>
-    <section class="py-16 space-y-4 px-4 max-w-screen-sm">
+    <section class="py-16 space-y-4 px-4 max-w-screen-sm bg-background">
         <h2 class="text-2xl">
             Wishes
         </h2>
