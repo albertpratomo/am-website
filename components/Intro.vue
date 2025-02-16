@@ -1,6 +1,6 @@
 <template>
     <section class="sticky top-0 z-[-1]">
-        <div class="text-center absolute inset-x-0 top-[25%] text-primary-foreground">
+        <div class="text-center absolute inset-x-0 top-[25%] text-primary">
             <h1 class="text-6xl">
                 ALBERT
 

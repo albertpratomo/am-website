@@ -15,10 +15,12 @@ export default defineNuxtConfig({
 
     app: {
         head: {
-            link: [{
-                rel: 'stylesheet',
-                href: 'https://fonts.cdnfonts.com/css/optima?styles=16596,24894" rel="stylesheet',
-            }],
+            link: [
+                {
+                    rel: 'stylesheet',
+                    href: 'https://fonts.cdnfonts.com/css/optima?styles=16596,24894',
+                },
+            ],
         },
     },
 

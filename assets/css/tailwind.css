@@ -19,8 +19,8 @@
         --border: 20 5.9% 90%;
         --input: 20 5.9% 90%;
 
-        --primary: 0 0% 0%;
-        --primary-foreground: 47 100% 92%;
+        --primary: 47 100% 92%;
+        --primary-foreground: 24 9.8% 10%;
 
         --secondary: 60 4.8% 95.9%;
         --secondary-foreground: 24 9.8% 10%;
@@ -38,11 +38,18 @@
 }
 
 @layer base {
+    @font-face {
+        font-family: 'Mayonice';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('https://fonts.cdnfonts.com/s/123934/Mayonice-gwaq1.woff') format('woff');
+    }
+
     * {
         @apply border-border;
     }
     body {
         @apply bg-background text-foreground;
-        background-image: url('/img/bg.svg');
     }
 }

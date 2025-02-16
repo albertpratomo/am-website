@@ -17,6 +17,9 @@ module.exports = {
                 ring: 'hsl(var(--ring))',
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',
+                dark: {
+                    DEFAULT: 'hsl(var(--primary-foreground))',
+                },
                 primary: {
                     DEFAULT: 'hsl(var(--primary))',
                     foreground: 'hsl(var(--primary-foreground))',
@@ -54,6 +57,7 @@ module.exports = {
             },
             fontFamily: {
                 serif: ['Optima', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+                mayonice: ['Mayonice'],
             },
             keyframes: {
                 'accordion-down': {

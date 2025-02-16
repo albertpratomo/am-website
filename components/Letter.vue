@@ -13,9 +13,9 @@ const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
         ref="containerRef"
         class="h-[200vh] bg-background"
     >
-        <div class="sticky top-0 h-screen flex items-center justify-center">
-            <p class="text-center text-3xl/normal">
-                Now, under the endless blue sky, they invite you to celebrate their next chapter.
+        <div class="sticky top-0 h-screen flex items-center justify-center px-1">
+            <p class="text-center text-2xl/loose font-mayonice">
+                They say every crossing has a purpose, and we are grateful for yours in our story. Through the years, in laughters and struggles, you have been a part of our journey. We have waited for this moment and we can't imagine celebrating this day without you.
             </p>
 
             <Motion
