@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const recipient = inject(recipientInjectionKey)
+
 const containerRef = useTemplateRef('containerRef')
 
 const { scrollYProgress } = useScroll({
@@ -11,12 +13,16 @@ const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
 <template>
     <section
         ref="containerRef"
-        class="h-[200vh] bg-background"
+        class="h-[200vh] bg-background relative"
     >
-        <div class="sticky top-0 h-screen flex items-center justify-center px-1 overflow-x-hidden">
-            <p class="text-center text-2xl/loose font-mayonice">
+        <div class="sticky top-0 h-screen flex items-center justify-center px-4 overflow-x-hidden">
+            <div class="text-center text-2xl/loose font-mayonice">
+                <div v-if="recipient" class="mb-6">
+                    Dear {{ recipient.name }},
+                </div>
+
                 They say every crossing has a purpose, and we are grateful for yours in our story. Through the years, in laughters and struggles, you have been a part of our journey. We have waited for this moment and we can't imagine celebrating this day without you.
-            </p>
+            </div>
 
             <Motion
                 as="div"

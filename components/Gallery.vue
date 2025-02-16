@@ -54,7 +54,7 @@ const images = [
 <template>
     <section
         ref="galleryRef"
-        class="h-[350vh] bg-background"
+        class="h-[350vh] bg-background relative"
     >
         <div class="sticky top-0 overflow-hidden">
             <Motion

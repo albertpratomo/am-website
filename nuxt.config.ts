@@ -52,4 +52,8 @@ export default defineNuxtConfig({
             modifiers: { smart: true },
         },
     },
+
+    supabase: {
+        redirect: false,
+    },
 })
