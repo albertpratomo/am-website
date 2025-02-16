@@ -27,7 +27,7 @@ async function submit() {
 <template>
     <Dialog v-model:open="open">
         <DialogTrigger as-child>
-            <Button variant="secondary">
+            <Button variant="link">
                 Make a wish
             </Button>
         </DialogTrigger>
