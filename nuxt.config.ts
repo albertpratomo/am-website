@@ -20,6 +20,10 @@ export default defineNuxtConfig({
                     rel: 'stylesheet',
                     href: 'https://fonts.cdnfonts.com/css/optima?styles=16596,24894',
                 },
+                {
+                    rel: 'stylesheet',
+                    href: 'https://fonts.cdnfonts.com/css/adobe-garamond-pro-2?styles=29966',
+                },
             ],
         },
     },

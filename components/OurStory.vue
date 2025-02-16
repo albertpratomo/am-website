@@ -3,7 +3,7 @@
         <h2 class="text-3xl flex justify-center items-end">
             STORY
 
-            <span class="italic text-2xl ml-1 mb-px mr-2">
+            <span class="text-2xl font-garamond mr-2.5 ml-1">
                 of
             </span>
 

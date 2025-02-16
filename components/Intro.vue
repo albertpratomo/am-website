@@ -4,7 +4,7 @@
             <h1 class="text-6xl">
                 ALBERT
 
-                <div class="italic text-base">
+                <div class="text-2xl font-garamond">
                     and
                 </div>
 
