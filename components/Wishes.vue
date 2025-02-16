@@ -18,7 +18,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
         <h2 class="text-3xl flex justify-center items-end">
             WISHES
 
-            <span class="text-2xl font-garamond ml-2.5 mr-2">
+            <span class="text-2xl italic font-garamond ml-2.5 mr-2">
                 from
             </span>
 

@@ -9,7 +9,7 @@ provide(recipientInjectionKey, recipient)
 </script>
 
 <template>
-    <main class="font-serif max-w-md mx-auto">
+    <main class="font-serif max-w-lg mx-auto">
         <Intro />
 
         <Letter />

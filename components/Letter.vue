@@ -33,7 +33,7 @@ const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
                     height="1000"
                     width="667"
                     class="object-cover max-w-none h-full"
-                    src="https://a.storyblok.com/f/210339/2048x3072/3ab801adbd/a-m-04606.jpg"
+                    src="https://a.storyblok.com/f/210339/2667x4000/6bd1f5f78c/letter.jpg"
                 />
             </Motion>
         </div>
