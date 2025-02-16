@@ -25,7 +25,10 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
             YOU
         </h2>
 
-        <ul class="h-[70vh] overflow-scroll flex flex-col-reverse mt-10 items-start">
+        <ul
+            class="h-[70vh] overflow-y-auto flex flex-col-reverse mt-10 items-start"
+            :style="{ scrollbarColor: 'hsl(var(--primary) / .2) transparent' }"
+        >
             <li
                 v-for="wish in wishes"
                 :key="wish.id"
