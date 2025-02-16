@@ -32,45 +32,29 @@ async function submit() {
             </Button>
         </DialogTrigger>
 
-        <DialogContent class="sm:max-w-[425px]">
+        <DialogContent>
             <DialogHeader>
-                <DialogTitle>Make a wish</DialogTitle>
-
-                <DialogDescription>
-                    Make a wish for Albert & Melissa
-                </DialogDescription>
+                <DialogTitle>What's your wish?</DialogTitle>
             </DialogHeader>
 
-            <div>
-                <Label for="name">
-                    Name
-                </Label>
+            <Input
+                v-model="name"
+                class="mt-4"
+                placeholder="Your name"
+            />
 
-                <Input
-                    id="name"
-                    v-model="name"
-                    placeholder="John Doe"
-                />
-            </div>
-
-            <div>
-                <Label for="content">
-                    Message
-                </Label>
-
-                <Textarea
-                    id="content"
-                    v-model="content"
-                    placeholder="Type your message here."
-                />
-            </div>
+            <Textarea
+                v-model="content"
+                placeholder="Your wish"
+            />
 
             <DialogFooter>
                 <Button
+                    variant="link-dark"
                     type="submit"
                     @click="submit"
                 >
-                    Submit
+                    Send
                 </Button>
             </DialogFooter>
         </DialogContent>
