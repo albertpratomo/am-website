@@ -1,7 +1,7 @@
 export interface Recipient {
     slug: string
     name: string
-    type: 1 | 2 // bali, bdc
+    type: 1 | 2 // Bali, BDC
 }
 
 const recipients: Recipient[] = [

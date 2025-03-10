@@ -18,6 +18,8 @@ provide(recipientInjectionKey, recipient)
 
         <Gallery />
 
+        <Venue />
+
         <Wishes />
     </main>
 </template>

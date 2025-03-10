@@ -12,7 +12,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
 
 <template>
     <section
-        class="py-16 px-4 bg-center bg-cover bg-no-repeat bg-background text-primary"
+        class="py-16 px-4 bg-center bg-cover bg-no-repeat h-screen bg-background text-primary"
         :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/278f8fc821/a-m-06335.jpg/m/880x0)' }"
     >
         <h2 class="text-3xl flex justify-center items-end">
