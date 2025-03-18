@@ -10,6 +10,8 @@ provide(recipientInjectionKey, recipient)
 
 <template>
     <main class="font-serif max-w-lg mx-auto">
+        <TheMenu />
+
         <Intro />
 
         <Letter />

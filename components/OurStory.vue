@@ -1,5 +1,8 @@
 <template>
-    <section class="px-6 py-24 font-serif bg-background text-center leading-relaxed">
+    <section
+        id="our-story"
+        class="px-6 py-24 font-serif bg-background text-center leading-relaxed"
+    >
         <h2 class="text-3xl flex justify-center items-end">
             STORY
 
