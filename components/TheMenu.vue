@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useBodyScrollLock } from 'radix-vue'
+
 const isOpen = ref(false)
 
 const items = [
@@ -15,6 +17,9 @@ const items = [
         to: '#wishes',
     },
 ]
+
+const isScrollLocked = useScrollLock(window)
+watch(isOpen, () => isScrollLocked.value = isOpen.value)
 </script>
 
 <template>
@@ -26,10 +31,15 @@ const items = [
         {{ isOpen ? 'CLOSE' : 'MENU' }}
     </button>
 
-    <Transition name="fade">
+    <Transition
+        enter-from-class="opacity-0"
+        leave-to-class="opacity-0"
+        enter-active-class="transition-opacity duration-400"
+        leave-active-class="transition-opacity duration-400"
+    >
         <ul
             v-show="isOpen"
-            class="fixed w-screen h-screen bg-black text-primary z-10 flex flex-col gap-6 items-center justify-center"
+            class="fixed inset-0 bg-black text-primary z-10 flex flex-col gap-6 items-center justify-center"
         >
             <li
                 v-for="item in items"
