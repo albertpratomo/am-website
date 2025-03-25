@@ -8,6 +8,7 @@ const { scrollYProgress } = useScroll({
 })
 
 const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
+const opacity = useTransform(scrollYProgress, [0, 0.1], ['0.01', '1'])
 </script>
 
 <template>
@@ -27,7 +28,7 @@ const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
             <Motion
                 as="div"
                 class="absolute h-full"
-                :style="{ scale }"
+                :style="{ scale, opacity }"
             >
                 <NuxtImg
                     height="1000"
