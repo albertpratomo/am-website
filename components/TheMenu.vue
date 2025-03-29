@@ -16,6 +16,10 @@ const items = [
         text: 'WISHES',
         to: '#wishes',
     },
+    {
+        text: 'GIFT',
+        to: '#gift',
+    },
 ]
 
 const isScrollLocked = useScrollLock(window)
