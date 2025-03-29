@@ -25,6 +25,12 @@ export default defineNuxtConfig({
                     href: 'https://fonts.cdnfonts.com/css/adobe-garamond-pro-2?styles=29966',
                 },
             ],
+            meta: [
+                {
+                    name: 'robots',
+                    content: 'noindex, nofollow',
+                },
+            ],
         },
     },
 
