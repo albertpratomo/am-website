@@ -1,5 +1,11 @@
+<script setup lang="ts">
+function open() {
+    document.getElementById('letter')?.scrollIntoView({ behavior: 'smooth' })
+}
+</script>
+
 <template>
-    <section class="sticky top-0 z-[-1]">
+    <section>
         <div class="text-center absolute inset-x-0 top-[25%] text-primary">
             <h1 class="text-6xl">
                 ALBERT
@@ -10,6 +16,15 @@
 
                 MELISSA
             </h1>
+        </div>
+
+        <div class="absolute bottom-[10%] inset-x-0 flex justify-center">
+            <Button
+                variant="link"
+                @click="open"
+            >
+                Open
+            </Button>
         </div>
 
         <NuxtImg

@@ -13,6 +13,7 @@ const opacity = useTransform(scrollYProgress, [0, 0.1], ['0.01', '1'])
 
 <template>
     <section
+        id="letter"
         ref="containerRef"
         class="h-[200vh] bg-background relative"
     >
