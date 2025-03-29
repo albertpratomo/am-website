@@ -39,8 +39,6 @@
             </div>
         </div>
 
-        <Button variant="link">
-            RSVP Now
-        </Button>
+        <DresscodeDialog />
     </div>
 </template>
