@@ -4,6 +4,10 @@
 
         <div class="text-4xl">
             HOLY MATRIMONY
+
+            <div class="mt-2">
+                & LUNCH
+            </div>
         </div>
 
         <div class="flex items-center">

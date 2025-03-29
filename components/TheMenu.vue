@@ -24,7 +24,7 @@ watch(isOpen, () => isScrollLocked.value = isOpen.value)
 
 <template>
     <button
-        class="fixed left-4 top-4 z-20"
+        class="fixed left-0 top-0 p-4 z-20"
         :class="{ 'text-primary': isOpen }"
         @click="isOpen = !isOpen"
     >
