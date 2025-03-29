@@ -23,5 +23,7 @@ provide(recipientInjectionKey, recipient)
         <Venue />
 
         <Wishes />
+
+        <Gift />
     </main>
 </template>
