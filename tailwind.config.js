@@ -56,7 +56,7 @@ module.exports = {
                 sm: 'calc(var(--radius) - 4px)',
             },
             fontFamily: {
-                garamond: ['Adobe Garamond Pro'],
+                garamond: ['Adobe Garamond Pro Italic'],
                 mayonice: ['Mayonice'],
                 serif: ['Optima', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
             },

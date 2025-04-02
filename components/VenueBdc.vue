@@ -1,37 +1,52 @@
 <template>
     <div class="text-center text-primary space-y-8 max-w-sm">
-        <h2>Celebrate with us</h2>
+        <h2>Save the date</h2>
 
         <div class="text-4xl">
-            HOLY MATRIMONY
-
-            <div class="mt-2">
-                & LUNCH
-            </div>
+            SATURDAY, <br>
+            3 MAY 2025
         </div>
 
-        <div class="flex items-center">
-            <div class="w-1/2 text-xl border-r border-primary flex justify-end pr-8">
-                <div>
-                    SATURDAY, <br>
-                    03 MAY 2025
-                </div>
-            </div>
-
-            <div class="w-1/2 text-xl flex">
-                <div class="pl-8">
-                    10:00 WIB
-                </div>
-            </div>
+        <div>
+            Celebrated at
         </div>
 
-        <div class="text-2xl">
+        <div class="text-3xl">
             Vihara Buddhayana <br>
             Dharmawira Centre Surabaya
+
+            <div class="text-base mt-2">
+                <a
+                    href="https://maps.app.goo.gl/tEDcEKk3bEV3qgM48"
+                    class="underline"
+                    target="_blank"
+                >
+                    Map
+                </a>
+            </div>
         </div>
 
-        <Button variant="link">
-            RSVP Now
-        </Button>
+        <div>
+            Event schedule
+        </div>
+
+        <div class="flex divide-x divide-primary">
+            <div class="w-1/2 text-xl">
+                HOLY <br>
+                MATRIMONY
+
+                <div class="text-sm mt-2">
+                    at 10.00 WIB
+                </div>
+            </div>
+
+            <div class="w-1/2 text-xl pt-3">
+                LUNCH
+
+                <div class="text-sm mt-2">
+                    at 12.00 WIB
+                </div>
+            </div>
+        </div>
     </div>
 </template>

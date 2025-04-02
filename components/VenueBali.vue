@@ -3,7 +3,7 @@
         <h2>Save the date</h2>
 
         <div class="text-4xl">
-            SATURDAY, <br>
+            SUNDAY, <br>
             11 MAY 2025
         </div>
 
@@ -13,6 +13,16 @@
 
         <div class="text-4xl">
             JEEVA SABA BALI
+
+            <div class="text-base mt-2">
+                <a
+                    href="https://maps.app.goo.gl/81eurk5kQjWN3vaT9"
+                    class="underline"
+                    target="_blank"
+                >
+                    Map
+                </a>
+            </div>
         </div>
 
         <div>
@@ -25,7 +35,7 @@
                 MATRIMONY
 
                 <div class="text-sm mt-2">
-                    At 16.00 WIB
+                    at 16.00 WITA
                 </div>
             </div>
 
@@ -34,7 +44,7 @@
                 RECEPTION
 
                 <div class="text-sm mt-2">
-                    At 18.00 WIB
+                    at 18.00 WITA
                 </div>
             </div>
         </div>
