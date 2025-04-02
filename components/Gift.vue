@@ -11,19 +11,26 @@
                 width="350"
             />
 
-            <div class="absolute top-12 left-12 font-mayonice text-xl">
-                A moment &nbsp;to celebrate,
-                <br>
-                &nbsp;a memory to hold.
-                <br>
+            <div class="absolute top-10 left-8 font-mayonice text-xl">
+                <div class="ml-1">
+                    A day &nbsp;to cherish,
+                    <br>
+                    &nbsp;a memory to hold.
+                </div>
 
-                <div class="mt-5 ml-6">
+                <div class="mt-5 ml-8">
                     If you wish to gift,
-                    <br>&nbsp;&nbsp;details are here.
+                    <br>
+
+                    &nbsp;&nbsp;details are <GiftDialog />
                 </div>
 
                 <div class="mt-5">
-                    <GiftDialog />
+                    Can't wait &nbsp;to celebrate with you!
+                </div>
+
+                <div class="text-right mt-2 mr-4">
+                    A&M
                 </div>
             </div>
         </div>

@@ -1,17 +1,13 @@
 <script setup lang="ts">
 const open = ref(false)
-
-function copyText(content: string) {
-    navigator.clipboard.writeText(content)
-}
 </script>
 
 <template>
     <Dialog v-model:open="open">
         <DialogTrigger as-child>
-            <Button variant="link-dark">
-                Share a gift
-            </Button>
+            <a class="underline cursor-pointer">
+                here.
+            </a>
         </DialogTrigger>
 
         <DialogContent>
