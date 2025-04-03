@@ -11,13 +11,13 @@ const x = useTransform(scrollYProgress, [0, 0.98, 1], ['0%', '-88%', '-88%'])
 <template>
     <section
         ref="galleryRef"
-        class="h-[350vh] bg-background relative"
+        class="h-[350vh] relative"
     >
         <div class="sticky top-0 overflow-hidden">
             <Motion
                 as="div"
                 :style="{ x }"
-                class="flex h-screen items-center w-[5150px]"
+                class="flex h-screen items-center w-[5150px] bg-paper"
             >
                 <NuxtImg
                     width="4990"

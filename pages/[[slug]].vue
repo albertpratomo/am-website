@@ -12,19 +12,19 @@ provide(recipientInjectionKey, recipient)
     <main class="font-serif max-w-lg mx-auto">
         <TheMenu />
 
-        <Intro class="sticky top-0" />
+        <Intro class="sticky top-0 z-[1]" />
 
-        <Letter class="" />
+        <Letter class="relative z-[5]" />
 
-        <OurStory class="relative" />
+        <OurStory class="relative z-[5]" />
 
-        <Gallery class="relative" />
+        <Gallery class="relative z-[5]" />
 
-        <Venue class="relative" />
+        <Venue class="relative z-[5]" />
 
-        <Wishes class="relative" />
+        <Wishes class="relative z-[5]" />
 
-        <Gift class="relative" />
+        <Gift class="relative z-[5]" />
 
         <Music />
     </main>

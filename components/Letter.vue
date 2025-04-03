@@ -15,9 +15,9 @@ const opacity = useTransform(scrollYProgress, [0, 0.1], ['0.01', '1'])
     <section
         id="letter"
         ref="containerRef"
-        class="h-[200vh] bg-background relative"
+        class="h-[200vh] relative"
     >
-        <div class="sticky top-0 h-screen flex items-center justify-center px-4 overflow-x-hidden">
+        <div class="sticky bg-paper top-0 h-screen flex items-center justify-center px-4 overflow-x-hidden">
             <div class="text-center text-2xl/loose font-mayonice">
                 <div v-if="recipient" class="mb-6">
                     Dear {{ recipient.name }},

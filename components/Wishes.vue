@@ -13,10 +13,10 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
 <template>
     <section
         id="wishes"
-        class="py-16 px-4 bg-center bg-cover bg-no-repeat h-screen bg-background text-primary"
-        :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/278f8fc821/a-m-06335.jpg/m/880x0)' }"
+        class="py-16 px-4 bg-center bg-cover bg-no-repeat h-screen bg-paper text-dark overlay-dark"
+        :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/831a895d24/a-m-04770.jpg/m/880x0)' }"
     >
-        <h2 class="text-3xl flex justify-center items-end">
+        <h2 class="text-3xl flex justify-center items-end text-primary">
             WISHES
 
             <span class="text-2xl italic font-garamond ml-2.5 mr-2">
@@ -35,11 +35,11 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
                 :key="wish.id"
                 class="mb-4"
             >
-                <div class="text-sm">
+                <div class="text-sm text-primary">
                     {{ wish.name }}
                 </div>
 
-                <div class="px-4 py-2 rounded bg-black/50">
+                <div class="px-4 py-2 rounded bg-dark/80 text-primary">
                     {{ wish.content }}
                 </div>
             </li>

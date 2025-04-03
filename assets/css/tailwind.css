@@ -4,7 +4,7 @@
 
 @layer base {
     :root {
-        --background: 24 5.7% 82.9%;
+        --background: 47 100% 92%;
         --foreground: 20 14.3% 4.1%;
 
         --muted: 60 4.8% 95.9%;
@@ -51,6 +51,19 @@
     }
 
     body {
-        @apply bg-background text-foreground;
+        @apply text-foreground;
+    }
+
+    .bg-paper {
+        position: relative;
+        background-size: contain;
+        background-repeat: repeat;
+        background-image: url('https://a.storyblok.com/f/210339/2000x2000/6488acee6a/paper-4.jpg/m/');
+    }
+
+    .overlay-dark::before {
+        @apply inset-0 absolute bg-black/10;
+        content: '';
+        z-index: -1;
     }
 }
