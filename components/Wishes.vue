@@ -34,6 +34,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
                 v-for="wish in wishes"
                 :key="wish.id"
                 class="mb-4"
+                :class="{ 'self-end': ['A&M', 'A & M', 'Albert', 'Melissa'].includes(wish.name) }"
             >
                 <div class="text-sm text-primary">
                     {{ wish.name }}

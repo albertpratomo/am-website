@@ -13,7 +13,7 @@ onMounted(() => {
 <template>
     <button
         size="icon"
-        class="fixed left-0 bottom-0 p-4 z-20 text-primary/80"
+        class="fixed left-0 bottom-0 p-4 z-[12] text-primary/80"
         :class="{ 'animate-[spin_3s_linear_infinite]': playing }"
         @click="playing = !playing"
     >

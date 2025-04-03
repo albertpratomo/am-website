@@ -7,8 +7,8 @@ const { scrollYProgress } = useScroll({
     target: containerRef,
 })
 
-const scale = useTransform(scrollYProgress, [0, 0.9, 1], ['0.01', '1', '1'])
-const opacity = useTransform(scrollYProgress, [0, 0.1], ['0.01', '1'])
+const scale = useTransform(scrollYProgress, [0, 0.2, 0.9, 1], ['0.01', '0.01', '1', '1'])
+const opacity = useTransform(scrollYProgress, [0, 0.2, 0.4], ['0', '0', '1'])
 </script>
 
 <template>
@@ -23,7 +23,11 @@ const opacity = useTransform(scrollYProgress, [0, 0.1], ['0.01', '1'])
                     Dear {{ recipient.name }},
                 </div>
 
-                They say every crossing has a purpose, and we are grateful for yours in our story. Through the years, in laughters and struggles, you have been a part of our journey. We have waited for this moment and we can't imagine celebrating this day without you.
+                They say every crossing has a purpose, and we are grateful for yours in our story.
+
+                Through the years, in laughters and struggles, you have been a part of our journey.
+
+                We have waited for this moment and we can't imagine celebrating this day without you.
             </div>
 
             <Motion

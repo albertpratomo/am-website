@@ -22,10 +22,10 @@
         --primary: 47 100% 92%;
         --primary-foreground: 24 9.8% 10%;
 
-        --secondary: 47 100% 88%;
+        --secondary: 20 20.9% 85%;
         --secondary-foreground: 24 9.8% 10%;
 
-        --accent: 47 100% 80%;
+        --accent: 20 20.9% 70%;
         --accent-foreground: 24 9.8% 10%;
 
         --destructive: 0 84.2% 60.2%;
@@ -56,9 +56,9 @@
 
     .bg-paper {
         position: relative;
-        background-size: contain;
+        background-size: 1000px 1000px;
         background-repeat: repeat;
-        background-image: url('https://a.storyblok.com/f/210339/2000x2000/6488acee6a/paper-4.jpg/m/');
+        background-image: url('https://a.storyblok.com/f/210339/2000x2000/fe341c7378/paper-5.jpg/m/');
     }
 
     .overlay-dark::before {

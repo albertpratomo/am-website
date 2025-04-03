@@ -10,9 +10,11 @@ provide(recipientInjectionKey, recipient)
 
 <template>
     <main class="font-serif max-w-lg mx-auto">
+        <Music />
+
         <TheMenu />
 
-        <Intro class="sticky top-0 z-[1]" />
+        <Intro />
 
         <Letter class="relative z-[5]" />
 
@@ -25,7 +27,5 @@ provide(recipientInjectionKey, recipient)
         <Wishes class="relative z-[5]" />
 
         <Gift class="relative z-[5]" />
-
-        <Music />
     </main>
 </template>
