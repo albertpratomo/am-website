@@ -23,7 +23,7 @@
 
         <p class="mt-6">
             We stand at the edge of a new chapter—one we step into together. The years have shaped us, distance has tested us, and here we are.
-            In time, through changes, always. We ask you to gather with us in Bali, to witness this moment, to celebrate where we have been and all that lies ahead—where past and future meet beneath the open sky.
+            In time, through changes, always. We ask you to gather with us, to witness this moment, to celebrate where we have been and all that lies ahead—where past and future meet beneath the open sky.
         </p>
 
         <p class="mt-8">
