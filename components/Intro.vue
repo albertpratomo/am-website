@@ -10,7 +10,7 @@ function open() {
             <h1 class="text-6xl">
                 ALBERT
 
-                <div class="text-2xl italic font-garamond">
+                <div class="text-2xl italic font-garamond -mt-2">
                     and
                 </div>
 
