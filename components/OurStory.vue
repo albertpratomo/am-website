@@ -18,7 +18,7 @@
         </p>
 
         <p class="mt-6">
-            For over two years, we have built this life across continents and time zones, shaped by different beliefs and cultures. Distance is our reality, but so is our choice—to nurture what we have, <br>to grow together despite it.
+            For over two years, we have built this life across continents and time zones, shaped by different beliefs and cultures. Distance is our reality, but so is our choice—to nurture what we have, to grow together despite it.
         </p>
 
         <p class="mt-6">

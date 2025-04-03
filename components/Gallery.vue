@@ -17,13 +17,12 @@ const x = useTransform(scrollYProgress, [0, 0.98, 1], ['0%', '-88%', '-88%'])
             <Motion
                 as="div"
                 :style="{ x }"
-                class="flex h-screen items-center w-[3480px]"
+                class="flex h-screen items-center w-[5150px]"
             >
                 <NuxtImg
-                    height="564"
+                    width="4990"
                     loading="lazy"
-                    src="https://a.storyblok.com/f/210339/4501x730/858d0a3137/gallery-small-2.png"
-                    :modifiers="{ smart: false }"
+                    src="https://a.storyblok.com/f/210339/12918x1460/6e87af76ff/gallery-ori.png"
                 />
             </Motion>
         </div>
