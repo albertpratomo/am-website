@@ -16,7 +16,10 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
         class="py-16 px-4 bg-center bg-cover bg-no-repeat h-screen bg-paper text-dark overlay-dark"
         :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/831a895d24/a-m-04770.jpg/m/880x0)' }"
     >
-        <h2 class="text-3xl flex justify-center items-end text-primary">
+        <h2
+            class="text-3xl flex justify-center items-end text-primary"
+            data-aos="fade"
+        >
             WISHES
 
             <span class="text-2xl italic font-garamond ml-2.5 mr-2">
@@ -29,6 +32,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
         <ul
             class="h-[70vh] overflow-y-auto flex flex-col-reverse mt-10 items-start"
             :style="{ scrollbarColor: 'hsl(var(--primary) / .2) transparent' }"
+            data-aos="fade"
         >
             <li
                 v-for="wish in wishes"

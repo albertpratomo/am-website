@@ -11,6 +11,7 @@ export default defineNuxtConfig({
         'motion-v/nuxt',
         '@vueuse/nuxt',
         '@nuxtjs/supabase',
+        'nuxt-aos',
     ],
 
     app: {
@@ -61,5 +62,11 @@ export default defineNuxtConfig({
 
     supabase: {
         redirect: false,
+    },
+
+    aos: {
+        offset: 300,
+        duration: 800,
+        once: false,
     },
 })

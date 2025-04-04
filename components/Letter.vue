@@ -19,15 +19,23 @@ const opacity = useTransform(scrollYProgress, [0, 0.2, 0.4], ['0', '0', '1'])
     >
         <div class="sticky bg-paper top-0 h-screen flex items-center justify-center px-4 overflow-x-hidden">
             <div class="text-center text-2xl/loose font-mayonice">
-                <div v-if="recipient" class="mb-6">
+                <div
+                    v-if="recipient" class="mb-6"
+                    data-aos="fade"
+                >
                     Dear {{ recipient.name }},
                 </div>
 
-                They say every crossing has a purpose, and we are grateful for yours in our story.
+                <p
+                    data-aos="fade"
+                    data-aos-offset="500"
+                >
+                    They say every crossing has a purpose, and we are grateful for yours in our story.
 
-                Through the years, in laughters and struggles, you have been a part of our journey.
+                    Through the years, in laughters and struggles, you have been a part of our journey.
 
-                We have waited for this moment and we can't imagine celebrating this day without you.
+                    We have waited for this moment and we can't imagine celebrating this day without you.
+                </p>
             </div>
 
             <Motion

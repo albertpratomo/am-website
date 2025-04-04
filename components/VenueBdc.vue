@@ -1,17 +1,29 @@
 <template>
     <div class="text-center text-primary space-y-8 max-w-sm">
-        <h2>Save the date</h2>
+        <h2
+            data-aos="fade"
+        >
+            Save the date
+        </h2>
 
-        <div class="text-4xl">
+        <div
+            data-aos="fade"
+            class="text-4xl"
+        >
             SATURDAY, <br>
             3 MAY 2025
         </div>
 
-        <div>
+        <div
+            data-aos="fade"
+        >
             Celebrated at
         </div>
 
-        <div class="text-3xl">
+        <div
+            data-aos="fade"
+            class="text-3xl"
+        >
             Vihara Buddhayana <br>
             Dharmawira Centre Surabaya
 
@@ -26,11 +38,16 @@
             </div>
         </div>
 
-        <div>
+        <div
+            data-aos="fade"
+        >
             Event schedule
         </div>
 
-        <div class="flex divide-x divide-primary">
+        <div
+            data-aos="fade"
+            class="flex divide-x divide-primary"
+        >
             <div class="w-1/2 text-xl">
                 HOLY <br>
                 MATRIMONY
