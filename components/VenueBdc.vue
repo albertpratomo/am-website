@@ -27,13 +27,13 @@
             Vihara Buddhayana <br>
             Dharmawira Centre Surabaya
 
-            <div class="text-base mt-2">
+            <div class="text-sm mt-2">
                 <a
                     href="https://maps.app.goo.gl/tEDcEKk3bEV3qgM48"
                     class="underline"
                     target="_blank"
                 >
-                    Map
+                    Raya Panjang Jiwo Permai 44, Surabaya
                 </a>
             </div>
         </div>

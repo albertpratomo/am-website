@@ -24,7 +24,7 @@
             data-aos="fade"
             class="text-4xl"
         >
-            JEEVA SABA BALI
+            VILLA JEEVA SABA
 
             <div class="text-base mt-2">
                 <a
@@ -32,7 +32,7 @@
                     class="underline"
                     target="_blank"
                 >
-                    Map
+                    Pura Anyar II no. 8, Saba Beach, Gianyar, Bali
                 </a>
             </div>
         </div>
