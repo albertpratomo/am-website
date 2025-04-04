@@ -21,8 +21,8 @@ const x = useTransform(scrollYProgress, [0, 0.98, 1], ['0%', '-88%', '-88%'])
             >
                 <NuxtImg
                     width="4990"
-                    loading="lazy"
                     quality="88"
+                    loading="lazy"
                     src="https://a.storyblok.com/f/210339/12917x1459/630a6b0d81/uncompressed.png"
                 />
             </Motion>

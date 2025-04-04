@@ -2,7 +2,7 @@
     <section
         id="gift"
         class="h-screen bg-cover bg-center bg-no-repeat flex items-start justify-center pt-6"
-        :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/49f8b1831f/a-m-05406.jpg/m/0x1200)' }"
+        :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/49f8b1831f/a-m-05406.jpg/m/0x2100)' }"
     >
         <div
             data-aos="fade"

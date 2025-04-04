@@ -14,7 +14,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
     <section
         id="wishes"
         class="py-16 px-4 bg-center bg-cover bg-no-repeat h-screen bg-paper text-dark overlay-dark"
-        :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/831a895d24/a-m-04770.jpg/m/880x0)' }"
+        :style="{ backgroundImage: 'url(https://a.storyblok.com/f/210339/2048x3072/831a895d24/a-m-04770.jpg/m/0x1800)' }"
     >
         <h2
             class="text-3xl flex justify-center items-end text-primary"
@@ -38,7 +38,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
                 v-for="wish in wishes"
                 :key="wish.id"
                 class="mb-4"
-                :class="{ 'self-end': ['A&M', 'A & M', 'Albert', 'Melissa'].includes(wish.name) }"
+                :class="{ 'self-end': ['A&M', 'A & M', 'Albert', 'Melissa'].includes(wish.name || '') }"
             >
                 <div class="text-sm text-primary">
                     {{ wish.name }}
