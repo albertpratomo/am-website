@@ -58,7 +58,8 @@
         position: relative;
         background-size: 1000px 1000px;
         background-repeat: repeat;
-        background-image: url('https://a.storyblok.com/f/210339/2000x2000/fe341c7378/paper-5.jpg/m/');
+        background-color: #f9efdf;
+        background-image: url('https://a.storyblok.com/f/210339/2000x2000/fe341c7378/paper-5.jpg/m/2000x2000');
     }
 
     .overlay-dark::before {
