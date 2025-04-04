@@ -35,7 +35,7 @@ function open() {
                     variant="link"
                     @click="open"
                 >
-                    Open invitation
+                    Open and scroll slowly
                 </Button>
             </div>
         </div>
