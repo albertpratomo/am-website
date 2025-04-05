@@ -5,8 +5,10 @@ const open = ref(false)
 <template>
     <Dialog v-model:open="open">
         <DialogTrigger as-child>
-            <Button variant="link">
-                Dresscode
+            <Button variant="link" class="text-lg">
+                <div class="italic bg-dark/20 mt-4">
+                    Dresscode
+                </div>
             </Button>
         </DialogTrigger>
 

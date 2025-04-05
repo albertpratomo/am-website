@@ -11,6 +11,8 @@ const open = ref(false)
 const client = useSupabaseClient()
 
 async function submit() {
+    open.value = false
+
     const { data, error } = await client.from('wishes').insert({
         name: name.value,
         content: content.value,
@@ -18,9 +20,10 @@ async function submit() {
 
     if (!error) {
         emit('created', data![0])
-    }
 
-    open.value = false
+        name.value = ''
+        content.value = ''
+    }
 }
 </script>
 
