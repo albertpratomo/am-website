@@ -48,7 +48,7 @@
             data-aos="fade"
             class="grid grid-cols-2"
         >
-            <div class="text-xl border-r border-primary pr-4">
+            <div class="text-xl pr-4">
                 HOLY <br>
                 MATRIMONY
 
