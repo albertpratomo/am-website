@@ -30,6 +30,21 @@ const recipients: Recipient[] = [
         name: 'Carlson and Cicil',
         type: 1,
     },
+    {
+        name: 'Priscil & Albi',
+        slug: 'priscil-albi',
+        type: 1,
+    },
+    {
+        name: 'Maria',
+        slug: 'maria',
+        type: 1,
+    },
+    {
+        name: 'Dea',
+        slug: 'dea',
+        type: 1,
+    },
 
     {
         name: 'Bhante Viryanadi',

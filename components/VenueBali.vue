@@ -45,9 +45,9 @@
 
         <div
             data-aos="fade"
-            class="flex divide-x divide-primary"
+            class="grid grid-cols-2"
         >
-            <div class="w-1/2 text-xl">
+            <div class="text-xl border-r border-primary pr-4">
                 HOLY <br>
                 MATRIMONY
 
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="w-1/2 text-xl">
+            <div class="text-xl pl-3">
                 DINNER <br>
                 RECEPTION
 
