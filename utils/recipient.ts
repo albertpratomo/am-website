@@ -6,6 +6,21 @@ export interface Recipient {
 
 const recipients: Recipient[] = [
     {
+        slug: 'jeanny',
+        name: 'Jeanny',
+        type: 1,
+    },
+    {
+        slug: 'christy',
+        name: 'Christy',
+        type: 1,
+    },
+    {
+        slug: 'abed',
+        name: 'Abed',
+        type: 1,
+    },
+    {
         slug: 'steven',
         name: 'Steven',
         type: 1,
