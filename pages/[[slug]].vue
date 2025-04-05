@@ -24,6 +24,8 @@ provide(recipientInjectionKey, recipient)
 
         <Venue class="relative z-[5]" />
 
+        <Hotel class="relative z-[5]" />
+
         <Wishes class="relative z-[5]" />
 
         <Gift class="relative z-[5]" />

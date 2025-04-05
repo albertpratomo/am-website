@@ -8,6 +8,8 @@ onMounted(() => {
         playing.value = true
     }, { once: true })
 })
+
+// piano - https://cdn.pixabay.com/audio/2022/08/02/audio_a35547b8ad.mp3
 </script>
 
 <template>
@@ -28,7 +30,8 @@ onMounted(() => {
             preload="auto"
             autoplay
             loop
-            src="https://cdn.pixabay.com/audio/2022/08/02/audio_a35547b8ad.mp3" crossorigin="anonymous"
+            src="/bg-music.mp3"
+            crossorigin="anonymous"
         />
     </button>
 </template>
