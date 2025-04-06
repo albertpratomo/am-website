@@ -47,7 +47,7 @@ const recipients: Recipient[] = [
     { name: 'Ryan Santoso', slug: 'ryan-santoso', type: 1 },
     { name: 'Meichael', slug: 'meichael', type: 1 },
     { name: 'Tara & Rio', slug: 'tara-rio', type: 1 },
-    { name: 'Mutia & Mami', slug: 'mutia-mami', type: 1 },
+    { name: 'Mutia & Mami Edith', slug: 'mutia-mami', type: 1 },
     { name: 'Natasha & Rony', slug: 'natasha-rony', type: 1 },
     { name: 'Alvin Sugianto', slug: 'alvin-sugianto', type: 1 },
     { name: 'Alex & Frilin', slug: 'alex-frilin', type: 1 },
