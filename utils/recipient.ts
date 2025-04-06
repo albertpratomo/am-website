@@ -102,41 +102,13 @@ const recipients: Recipient[] = [
     { name: 'Maria', slug: 'maria', type: 1 },
     { name: 'Dea', slug: 'dea', type: 1 },
 
-    {
-        name: 'Bhante Viryanadi',
-        slug: 'bhante-viryanadi',
-        type: 2,
-    },
-    {
-        name: 'Bhante Vijjananda',
-        slug: 'bhante-vijjananda',
-        type: 2,
-    },
-    {
-        name: 'Bhante Dharmamaitri',
-        slug: 'bhante-dharmamaitri',
-        type: 2,
-    },
-    {
-        name: 'Bhante Nyanasila',
-        slug: 'bhante-nyanasila',
-        type: 2,
-    },
-    {
-        name: 'Bhante Vangisa',
-        slug: 'bhante-vangisa',
-        type: 2,
-    },
-    {
-        name: 'Bhante Loka',
-        slug: 'bhante-loka',
-        type: 2,
-    },
-    {
-        name: 'Samanera Kris',
-        slug: 'samanera-kris',
-        type: 2,
-    },
+    { name: 'Y.A. Viriyanadi Mahathera', slug: 'bhante-viriyanadi', type: 2 },
+    { name: 'Y.A. Nyana Vijjananda Mahathera', slug: 'bhante-vijjananda', type: 2 },
+    { name: 'Y.A. Nyana Dharmamaitri Mahathera', slug: 'bhante-dharmamaitri', type: 2 },
+    { name: 'Y.A. Nyanasila Thera', slug: 'bhante-nyanasila', type: 2 },
+    { name: 'Y.A. Vangisa Deva Thera', slug: 'bhante-vangisa', type: 2 },
+    { name: 'Y.A. Nyanaloka Stavira', slug: 'bhante-loka', type: 2 },
+    { name: 'Samanera Kristianto Batuadji', slug: 'samanera-kris', type: 2 },
 ]
 
 export function getRecipient(slug: string): Recipient | undefined {
