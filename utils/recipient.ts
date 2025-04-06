@@ -79,6 +79,8 @@ const recipients: Recipient[] = [
     { name: 'Nio Bertha Katriani', slug: 'nio-bertha-katriani', type: 1 },
     { name: 'Benny & Yuanita', slug: 'benny-yuanita', type: 1 },
     { name: 'Haricipto & Mutiara Rosemary', slug: 'haricipto-mutiara-rosemary', type: 1 },
+    { name: 'Galih & Retno', slug: 'galih-retno', type: 1 },
+    { name: 'Hendra & Choriah', slug: 'hendra-chroriah', type: 1 },
     { name: 'Jiu Abun & Jiu Mu', slug: 'jiu-abun-jiu-mu', type: 1 },
     { name: 'Tuaku & Tuakim', slug: 'tuaku-tuakim', type: 1 },
     { name: 'Jiku & Jikim', slug: 'jiku-jikim', type: 1 },
@@ -109,6 +111,19 @@ const recipients: Recipient[] = [
     { name: 'Y.A. Vangisa Deva Thera', slug: 'bhante-vangisa', type: 2 },
     { name: 'Y.A. Nyanaloka Stavira', slug: 'bhante-loka', type: 2 },
     { name: 'Samanera Kristianto Batuadji', slug: 'samanera-kris', type: 2 },
+    { name: 'Mr. & Mrs. Harley Wiyogo', slug: 'harley-wiyogo', type: 2 },
+    { name: 'Mr. & Mrs. Hadi Suyitno', slug: 'hadi-suyitno', type: 2 },
+    { name: 'Mr. & Mrs. Desandito Mulyo', slug: 'desandito-mulyo', type: 2 },
+    { name: 'Hendra Dion & partner', slug: 'hendra-dion', type: 2 },
+    { name: 'Ce Tri & Ko Mul', slug: 'tri-mul', type: 2 },
+    { name: 'Riady Salim', slug: 'riady-salim', type: 2 },
+    { name: 'Anthony Guang', slug: 'anthony-guang', type: 2 },
+    { name: 'Jhonny & partner', slug: 'jhonny', type: 2 },
+    { name: 'Sugiarto & Sukina', slug: 'sugiarto-sukina', type: 2 },
+    { name: 'Valen', slug: 'valen', type: 2 },
+    { name: 'Ce Dahana', slug: 'ce-dahana', type: 2 },
+    { name: 'Ce Meily', slug: 'ce-meily', type: 2 },
+    { name: 'Diana & Chiari', slug: 'diana-chiari', type: 2 },
 ]
 
 export function getRecipient(slug: string): Recipient | undefined {
