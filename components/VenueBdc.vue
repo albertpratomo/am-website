@@ -49,8 +49,8 @@
             class="grid grid-cols-2"
         >
             <div class="text-xl pr-4">
-                WEDDING <br>
-                BLESSING
+                HOLY <br>
+                MATRIMONY
 
                 <div class="text-sm mt-2">
                     at 10.00 WIB
