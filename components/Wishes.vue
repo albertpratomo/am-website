@@ -44,7 +44,7 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
                     {{ wish.name }}
                 </div>
 
-                <div class="px-4 py-2 rounded bg-dark/80 text-primary">
+                <div class="px-4 py-2 rounded bg-dark/80 text-primary whitespace-pre-wrap">
                     {{ wish.content }}
                 </div>
             </li>
