@@ -8,6 +8,12 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
 
     return data
 })
+
+function getEmoji() {
+    const emojis = ['🫶', '❤️', '🙏', '🤍', '🙌', '🥰', '🫰🏻', '🥳']
+
+    return emojis[Math.floor(Math.random() * emojis.length)]
+}
 </script>
 
 <template>
@@ -44,8 +50,12 @@ const { data: wishes } = await useAsyncData('wishes', async () => {
                     {{ wish.name }}
                 </div>
 
-                <div class="px-4 py-2 rounded bg-dark/80 text-primary whitespace-pre-wrap">
+                <div class="px-4 py-2 rounded bg-dark/80 text-primary whitespace-pre-wrap relative">
                     {{ wish.content }}
+
+                    <div class="absolute -bottom-3 right-2 text-sm bg-dark/80 rounded px-1 py-0.5">
+                        {{ getEmoji() }}
+                    </div>
                 </div>
             </li>
         </ul>
