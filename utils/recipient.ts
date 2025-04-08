@@ -103,6 +103,8 @@ const recipients: Recipient[] = [
     { name: 'Tuakou & Tuatio', slug: 'tuakou-tuatio', type: 1 },
     { name: 'Maria', slug: 'maria', type: 1 },
     { name: 'Dea', slug: 'dea', type: 1 },
+    { name: 'Cimone Kraucamp', slug: 'cimone', type: 1 },
+    { name: 'Clara', slug: 'clara', type: 1 },
 
     { name: 'Y.A. Viriyanadi Mahathera', slug: 'bhante-viriyanadi', type: 2 },
     { name: 'Y.A. Nyana Vijjananda Mahathera', slug: 'bhante-vijjananda', type: 2 },
@@ -231,7 +233,7 @@ const recipients: Recipient[] = [
     { name: 'Mr. Nanang', slug: 'nanang', type: 2 },
     { name: 'Ms. Wahyuningsih', slug: 'wahyuningsih', type: 2 },
     { name: 'Ms. Esti Wulandari', slug: 'esti-wulandari', type: 2 },
-    { name: 'Mr. & Mrs. Sebastian Hendra', slug: 'sebastian-hendra', type: 2 },
+    { name: 'Mr. & Mrs. Sebastian Hendra (Jicek & Jisiem)', slug: 'sebastian-hendra', type: 2 },
     { name: 'Mr. & Mrs. Eric Priyo Tranggono', slug: 'eric-priyo-tranggono', type: 2 },
     { name: 'Mr. & Mrs. Jonowi', slug: 'jonowi', type: 2 },
     { name: 'Mr. & Mrs. Andy Limanto', slug: 'andy-limanto', type: 2 },
@@ -262,7 +264,7 @@ const recipients: Recipient[] = [
     { name: 'Mrs. Catherine / Ayen', slug: 'catherine-ayen', type: 2 },
     { name: 'Mr. & Mrs. Widyanto', slug: 'widyanto', type: 2 },
     { name: 'Mr. & Mrs. Yulius Usman', slug: 'yulius-usman', type: 2 },
-    { name: 'Mr. Aloek & Mrs. Betty', slug: 'aloek-betty', type: 2 },
+    { name: 'Mr. Wilianto & Mrs. Betty', slug: 'aloek-betty', type: 2 },
 
     { name: 'Mr. & Mrs. Harley Wiyogo', slug: 'harley-wiyogo', type: 2 },
     { name: 'Mr. & Mrs. Ronny Sugianto', slug: 'ronny-sugianto', type: 2 },
