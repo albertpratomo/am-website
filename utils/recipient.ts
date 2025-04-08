@@ -6,6 +6,7 @@ export interface Recipient {
 
 const recipients: Recipient[] = [
     { name: 'Steven', slug: 'steven', type: 1 },
+    { name: 'Axel', slug: 'axel-himawan', type: 1 },
     { name: 'Sheilly & Ricky', slug: 'sheilly-ricky', type: 1 },
     { name: 'Arif & Jessy', slug: 'arif-jessy', type: 1 },
     { name: 'Amelia Tan', slug: 'amelia-tan', type: 1 },
@@ -205,7 +206,7 @@ const recipients: Recipient[] = [
     { name: 'Ms. Kemalawati (Wawa)', slug: 'kemalawati-wawa', type: 2 },
     { name: 'Mrs. Cahyo / Elly Tjandraningsih', slug: 'cahyo-elly-tjandraningsih', type: 2 },
     { name: 'Mr. & Mrs. Aditya', slug: 'aditya', type: 2 },
-    { name: 'Mr. Syanto & Mrs. Welly', slug: 'syanto-welly', type: 2 },
+    { name: 'Mr. Sianjito & Mrs. Welly', slug: 'sianjito-welly', type: 2 },
     { name: 'Mr. & Mrs. Pradipta', slug: 'pradipta', type: 2 },
     { name: 'Mr. Agus Sulistio & Mrs. Erika', slug: 'agus-sulistio-erika', type: 2 },
     { name: 'Mr. Budiono & Ms. Ida Budiarti', slug: 'budiono-ida-budiarti', type: 2 },
