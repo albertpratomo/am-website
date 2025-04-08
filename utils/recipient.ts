@@ -8,6 +8,7 @@ const recipients: Recipient[] = [
     { name: 'Steven', slug: 'steven', type: 1 },
     { name: 'Sheilly & Ricky', slug: 'sheilly-ricky', type: 1 },
     { name: 'Arif & Jessy', slug: 'arif-jessy', type: 1 },
+    { name: 'Amelia Tan', slug: 'amelia-tan', type: 1 },
     { name: 'Michael & Dorothy', slug: 'michael-dorothy', type: 1 },
     { name: 'Moses', slug: 'moses', type: 1 },
     { name: 'Elvina & Julian', slug: 'elvina-julian', type: 1 },
