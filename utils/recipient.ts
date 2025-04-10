@@ -300,6 +300,7 @@ const recipients: Recipient[] = [
     { name: 'Gunawan', slug: 'gunawan-setiawan', type: 2 },
     { name: 'Glenn', slug: 'glenn-ferio', type: 2 },
     { name: 'Sanitya', slug: 'sanitya', type: 2 },
+    { name: 'Vivi & Kevin', slug: 'vivi-kevin', type: 2 },
 ]
 
 export function getRecipient(slug: string): Recipient | undefined {
