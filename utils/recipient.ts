@@ -108,6 +108,14 @@ const recipients: Recipient[] = [
     { name: 'Cimone Kraucamp', slug: 'cimone', type: 1 },
     { name: 'Clara', slug: 'clara', type: 1 },
     { name: 'Aldi', slug: 'aldi', type: 1 },
+    { name: 'Kezia & Rei', slug: 'kezia-rei', type: 1 },
+    { name: 'Carlson', slug: 'carlson', type: 1 },
+    { name: 'Vivy & Adit', slug: 'vivy-adit', type: 1 },
+    { name: 'Chindra', slug: 'chindra', type: 1 },
+    { name: 'Melinda Tanudirjo', slug: 'melinda-tan', type: 1 },
+    { name: 'Gaby Cherilyn', slug: 'gaby-cherilyn', type: 1 },
+    { name: 'Clarissa Djimantoro', slug: 'clarissa-djimantoro', type: 1 },
+    { name: 'Ruth Hadinjoto', slug: 'ruth-hadinjoto', type: 1 },
 
     { name: 'Y.A. Viriyanadi Mahathera', slug: 'bhante-viriyanadi', type: 2 },
     { name: 'Y.A. Nyana Vijjananda Mahathera', slug: 'bhante-vijjananda', type: 2 },
@@ -268,6 +276,7 @@ const recipients: Recipient[] = [
     { name: 'Mr. & Mrs. Widyanto', slug: 'widyanto', type: 2 },
     { name: 'Mr. & Mrs. Yulius Usman', slug: 'yulius-usman', type: 2 },
     { name: 'Mr. Wilianto & Mrs. Betty', slug: 'aloek-betty', type: 2 },
+    { name: 'Evelyne & Vincent', slug: 'evelyne-vincent', type: 2 },
 
     { name: 'Mr. & Mrs. Harley Wiyogo', slug: 'harley-wiyogo', type: 2 },
     { name: 'Mr. & Mrs. Ronny Sugianto', slug: 'ronny-sugianto', type: 2 },
