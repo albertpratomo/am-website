@@ -107,6 +107,7 @@ const recipients: Recipient[] = [
     { name: 'Dea', slug: 'dea', type: 1 },
     { name: 'Cimone Kraucamp', slug: 'cimone', type: 1 },
     { name: 'Clara', slug: 'clara', type: 1 },
+    { name: 'Aldi', slug: 'aldi', type: 1 },
 
     { name: 'Y.A. Viriyanadi Mahathera', slug: 'bhante-viriyanadi', type: 2 },
     { name: 'Y.A. Nyana Vijjananda Mahathera', slug: 'bhante-vijjananda', type: 2 },
