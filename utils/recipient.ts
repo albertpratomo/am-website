@@ -116,6 +116,7 @@ const recipients: Recipient[] = [
     { name: 'Gaby Cherilyn', slug: 'gaby-cherilyn', type: 1 },
     { name: 'Clarissa Djimantoro', slug: 'clarissa-djimantoro', type: 1 },
     { name: 'Ruth Hadinjoto', slug: 'ruth-hadinjoto', type: 1 },
+    { name: 'Ricky & Avi', slug: 'ricky-avi', type: 1 },
 
     { name: 'Y.A. Viriyanadi Mahathera', slug: 'bhante-viriyanadi', type: 2 },
     { name: 'Y.A. Nyana Vijjananda Mahathera', slug: 'bhante-vijjananda', type: 2 },
@@ -301,6 +302,7 @@ const recipients: Recipient[] = [
     { name: 'Glenn', slug: 'glenn-ferio', type: 2 },
     { name: 'Sanitya', slug: 'sanitya', type: 2 },
     { name: 'Vivi & Kevin', slug: 'vivi-kevin', type: 2 },
+    { name: 'Jessica & Hendri', slug: 'jessica-hendri', type: 2 },
 ]
 
 export function getRecipient(slug: string): Recipient | undefined {
