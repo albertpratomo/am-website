@@ -84,7 +84,7 @@ const recipients: Recipient[] = [
     { name: 'Galih & Retno', slug: 'galih-retno', type: 1 },
     { name: 'Hendra & Choriah', slug: 'hendra-chroriah', type: 1 },
     { name: 'Jiu Abun & Jiu Mu', slug: 'jiu-abun-jiu-mu', type: 1 },
-    { name: 'Tuaku & Tuakim', slug: 'tuaku-tuakim', type: 1 },
+    { name: 'Mr. & Mrs. Sutarsono (Tua Ku & Tua Kim)', slug: 'tuaku-tuakim', type: 1 },
     { name: 'Jiku & Jikim', slug: 'jiku-jikim', type: 1 },
     { name: 'Suk Canon & Ii Ayen', slug: 'suk-canon-ii-ayen', type: 1 },
     { name: 'Saku Awie', slug: 'saku-awie', type: 1 },
