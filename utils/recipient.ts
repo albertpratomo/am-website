@@ -112,6 +112,8 @@ const recipients: Recipient[] = [
     { name: 'Mrs. Sa Lau Kim', slug: 'sa-lau-kim', type: 1 },
     { name: 'Mrs. Jenny & Ms. Claretta', slug: 'jenny-claretta', type: 1 },
     { name: 'Mrs. Lie Ik Sen (Gek Sim Kow)', slug: 'lie-ik-sen', type: 1 },
+    { name: 'Mr. & Mrs. Chang Yung Hung', slug: 'chang-yung-hung', type: 1 },
+
     { name: 'Mr. & Mrs. Minto Prawiro', slug: 'minto-prawiro', type: 1 },
     { name: 'Mr. & Mrs. Rumin Ingkiriwang (Ui Cek & Ui Kiem)', slug: 'rumin-ingkiriwang', type: 1 },
     { name: 'Mrs. Lily Sulistyowati & Mrs. Dwi Lindawati (Tua Lauw Kiem & Akouw Ling Ling)', slug: 'lily-sulistyowati-dwi-lindawati', type: 1 },
@@ -123,7 +125,7 @@ const recipients: Recipient[] = [
     { name: 'Soi Law Ie', slug: 'soi-ie', type: 1 },
     { name: 'Soi Law Ku & Soi Law Kiem', slug: 'soi-ku-soi-kiem', type: 1 },
     { name: 'Mr. & Mrs. Tatang Setiawan (Lauw Ku Atang & Lauw Kiem)', slug: 'tatang-setiawan', type: 1 },
-    { name: 'Mr. & Mrs. Charles Wendy (Lauw Ku Achan & Lauw Kiem)', slug: 'charles-wendy', type: 1 },
+    { name: 'Mr. & Mrs. Chales Wendy (Lauw Ku Achan & Lauw Kiem)', slug: 'chales-wendy', type: 1 },
     { name: 'Mr. Woeijono Budiarto & Ms. Lily Susylowati (Lauw Ku Bu Siang & Iie Ay Lie)', slug: 'woeijono-budiarto-lily-susylowati', type: 1 },
     { name: 'Mr. & Mrs. Yohnny Wiyono (Kouw Tio & Akouw Rita)', slug: 'yohnny-wiyono', type: 1 },
     { name: 'Mr. & Mrs. Hatono Lie (Tua Tio & Tua Kouw)', slug: 'hatono-lie', type: 1 },
