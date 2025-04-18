@@ -134,7 +134,7 @@ const recipients: Recipient[] = [
     { name: 'Mr. & Mrs. Hendra Sebastian (Jicek & Jisim)', slug: 'hendra-sebastian', type: 1 },
     { name: 'Ms. Maria & Dea', slug: 'maria-dea', type: 1 },
     { name: 'Mr. & Mrs. Ferry Soedikno (Jie Tio & Jie Kouw)', slug: 'ferry-soedikno', type: 1 },
-    { name: 'Mr. & Mrs. Lie Hui Kok (Lauw ku & Lauw kiem)', slug: 'lie-hui-kok', type: 1 },
+    { name: 'Mr. & Mrs. Lie Hui Kok (Lauw Cek & Lauw Siem)', slug: 'lie-hui-kok', type: 1 },
 
     { name: 'Papa & Mama', slug: 'papa-mama', type: 1 },
     { name: 'Metta', slug: 'metta', type: 1 },
