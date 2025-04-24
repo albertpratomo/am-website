@@ -115,6 +115,7 @@ const recipients: Recipient[] = [
     { name: 'Mrs. Lie Ik Sen (Gek Sim Kow)', slug: 'lie-ik-sen', type: 1 },
     { name: 'Mr. & Mrs. Chang Yung Hung', slug: 'chang-yung-hung', type: 1 },
     { name: 'Mrs. Ng Chiu Yen (Soei Lau Kow)', slug: 'ng-chiu-yen', type: 1 },
+    { name: 'Mr. Liu Ying', slug: 'liu-ying', type: 1 },
 
     { name: 'Mr. & Mrs. Minto Prawiro', slug: 'minto-prawiro', type: 1 },
     { name: 'Mr. & Mrs. Rumin Ingkiriwang (Ui Cek & Ui Kiem)', slug: 'rumin-ingkiriwang', type: 1 },
