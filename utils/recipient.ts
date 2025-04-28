@@ -326,6 +326,7 @@ const recipients: Recipient[] = [
     { name: 'Mr. Tri Satya & Mrs. Win Agatha', slug: 'tri-win', type: 2 },
     { name: 'Mrs. Patty', slug: 'patty', type: 2 },
     { name: 'Ica', slug: 'ica', type: 2 },
+    { name: 'Lydia Soeprapto', slug: 'lydia-soeprapto', type: 2 },
 
     { name: 'Mr. & Mrs. Harley Wiyogo', slug: 'harley-wiyogo', type: 2 },
     { name: 'Mr. & Mrs. Ronny Sugianto', slug: 'ronny-sugianto', type: 2 },
