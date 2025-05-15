@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const recipient = inject(recipientInjectionKey)
 
-const type = recipient?.type || 2 // BDC as default
+const type = recipient?.type || 1 // Bali as default
 </script>
 
 <template>
