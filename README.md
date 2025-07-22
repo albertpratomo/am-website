@@ -1,6 +1,8 @@
-# Nuxt 3 Shadcn
+# My Handmade Wedding Website
 
-My Nuxt 3 starter template.
+A very personal project for me. This is an invitation website for my wedding in Bali, May 2025.
+
+In this project I got to explore [Motion](https://motion.dev/), scrolling animations, and Supabase. It was fun!
 
 ## Setup
 
